@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Tab1">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/profil1"
+            android:layout_width="117dp"
+            android:layout_height="115dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
+            android:src="@drawable/avatar3"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="58dp"
+            android:layout_height="38dp"
+            android:layout_marginTop="60dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:text="Open"
+            android:textSize="10sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/txt1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="70dp"
+            android:text="Dirga"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@+id/profil1"
+            app:layout_constraintStart_toEndOf="@+id/profil1"
+            app:layout_constraintTop_toTopOf="@+id/profil1" />
+
+        <TextView
+            android:id="@+id/txt2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginBottom="21dp"
+            android:text="Ngopi kuy"
+            android:textSize="20sp"
+            android:textStyle="normal"
+            app:layout_constraintBottom_toBottomOf="@+id/profil1"
+            app:layout_constraintStart_toEndOf="@+id/profil1"
+            app:layout_constraintTop_toBottomOf="@+id/txt1" />
+
+        <ImageView
+            android:id="@+id/profil2"
+            android:layout_width="120dp"
+            android:layout_height="110dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:src="@drawable/avatar2"
+            app:layout_constraintEnd_toEndOf="@+id/profil1"
+            app:layout_constraintStart_toStartOf="@+id/profil1"
+            app:layout_constraintTop_toBottomOf="@+id/profil1" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="58dp"
+            android:layout_height="38dp"
+            android:layout_marginTop="188dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:text="Open"
+            android:textSize="10sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/txt3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="80dp"
+            android:text="Tasya"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@+id/profil2"
+            app:layout_constraintStart_toEndOf="@+id/profil2"
+            app:layout_constraintTop_toTopOf="@+id/profil2"
+            app:layout_constraintVertical_bias="0.083" />
+
+        <TextView
+            android:id="@+id/txt4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginBottom="21dp"
+            android:text="Lagi dimana bro?"
+            android:textSize="20sp"
+            android:textStyle="normal"
+            app:layout_constraintBottom_toBottomOf="@+id/profil2"
+            app:layout_constraintStart_toEndOf="@+id/profil2"
+            app:layout_constraintTop_toBottomOf="@+id/txt3"
+            app:layout_constraintVertical_bias="0.894" />
+
+        <ImageView
+            android:id="@+id/profil3"
+            android:layout_width="117dp"
+            android:layout_height="121dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="28dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:src="@drawable/avatar1"
+            app:layout_constraintEnd_toEndOf="@+id/profil2"
+            app:layout_constraintHorizontal_bias="0.448"
+            app:layout_constraintStart_toStartOf="@+id/profil2"
+            app:layout_constraintTop_toBottomOf="@id/bar2" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="58dp"
+            android:layout_height="38dp"
+            android:layout_marginTop="324dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:text="Open"
+            android:textSize="10sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/txt5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="80dp"
+            android:text="Joko"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@+id/profil3"
+            app:layout_constraintStart_toEndOf="@+id/profil3"
+            app:layout_constraintTop_toTopOf="@+id/profil3" />
+
+        <TextView
+            android:id="@+id/txt6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginBottom="21dp"
+            android:text="Mabar kuy"
+            android:textSize="20sp"
+            android:textStyle="normal"
+            app:layout_constraintBottom_toBottomOf="@+id/profil3"
+            app:layout_constraintStart_toEndOf="@+id/profil3"
+            app:layout_constraintTop_toBottomOf="@+id/txt5" />
+
+        <android.support.constraint.Barrier
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:barrierDirection="bottom"
+            app:constraint_referenced_ids="profil1,txt1,txt2"
+            tools:layout_editor_absoluteX="140dp"
+            tools:layout_editor_absoluteY="451dp" />
+
+        <android.support.constraint.Barrier
+            android:id="@+id/bar2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:barrierDirection="bottom"
+            app:constraint_referenced_ids="profil2,txt3,txt4"
+            tools:layout_editor_absoluteX="124dp"
+            tools:layout_editor_absoluteY="428dp" />
+
+        <android.support.constraint.Barrier
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:barrierDirection="bottom"
+            app:constraint_referenced_ids="profil3,txt5,txt6"
+            tools:layout_editor_absoluteX="77dp"
+            tools:layout_editor_absoluteY="450dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="224dp"
+            android:layout_marginLeft="224dp"
+            android:layout_marginBottom="84dp"
+            android:text="14.54"
+            app:layout_constraintBottom_toBottomOf="@+id/profil1"
+            app:layout_constraintStart_toEndOf="@+id/profil1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="224dp"
+            android:layout_marginLeft="224dp"
+            android:layout_marginTop="8dp"
+            android:text="23.54"
+            app:layout_constraintStart_toEndOf="@+id/profil3"
+            app:layout_constraintTop_toTopOf="@+id/profil3" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="224dp"
+            android:layout_marginLeft="224dp"
+            android:text="10.58"
+            app:layout_constraintStart_toEndOf="@+id/profil2"
+            app:layout_constraintTop_toTopOf="@+id/profil2" />
+
+
+    </android.support.constraint.ConstraintLayout>
+
+
+</RelativeLayout>

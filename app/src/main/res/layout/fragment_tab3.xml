@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Tab3">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/profil1"
+            android:layout_width="117dp"
+            android:layout_height="115dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
+            android:src="@drawable/avatar3"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/txt1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="70dp"
+            android:text="Ucup"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@+id/profil1"
+            app:layout_constraintStart_toEndOf="@+id/profil1"
+            app:layout_constraintTop_toTopOf="@+id/profil1" />
+
+        <TextView
+            android:id="@+id/txt2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="64dp"
+            android:layout_marginLeft="64dp"
+            android:layout_marginBottom="21dp"
+            android:text="Kemarin 14.50"
+            android:textSize="20sp"
+            android:textStyle="normal"
+            app:layout_constraintBottom_toBottomOf="@+id/profil1"
+            app:layout_constraintStart_toEndOf="@+id/profil1"
+            app:layout_constraintTop_toBottomOf="@+id/txt1"
+            app:layout_constraintVertical_bias="0.521" />
+
+        <ImageView
+            android:id="@+id/profil2"
+            android:layout_width="120dp"
+            android:layout_height="110dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:src="@drawable/avatar2"
+            app:layout_constraintEnd_toEndOf="@+id/profil1"
+            app:layout_constraintStart_toStartOf="@+id/profil1"
+            app:layout_constraintTop_toBottomOf="@+id/profil1" />
+
+        <TextView
+            android:id="@+id/txt3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="80dp"
+            android:text="Neti"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@+id/profil2"
+            app:layout_constraintStart_toEndOf="@+id/profil2"
+            app:layout_constraintTop_toTopOf="@+id/profil2"
+            app:layout_constraintVertical_bias="0.083" />
+
+        <TextView
+            android:id="@+id/txt4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="64dp"
+            android:layout_marginLeft="64dp"
+            android:layout_marginBottom="21dp"
+            android:text="12 April 11.45"
+            android:textSize="20sp"
+            android:textStyle="normal"
+            app:layout_constraintBottom_toBottomOf="@+id/profil2"
+            app:layout_constraintStart_toEndOf="@+id/profil2"
+            app:layout_constraintTop_toBottomOf="@+id/txt3"
+            app:layout_constraintVertical_bias="0.9" />
+
+        <ImageView
+            android:id="@+id/profil3"
+            android:layout_width="117dp"
+            android:layout_height="121dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="28dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:src="@drawable/avatar1"
+            app:layout_constraintEnd_toEndOf="@+id/profil2"
+            app:layout_constraintHorizontal_bias="0.448"
+            app:layout_constraintStart_toStartOf="@+id/profil2"
+            app:layout_constraintTop_toBottomOf="@id/bar2" />
+
+        <TextView
+            android:id="@+id/txt5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="80dp"
+            android:text="Dondon"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@+id/profil3"
+            app:layout_constraintStart_toEndOf="@+id/profil3"
+            app:layout_constraintTop_toTopOf="@+id/profil3" />
+
+        <TextView
+            android:id="@+id/txt6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="48dp"
+            android:layout_marginLeft="48dp"
+            android:layout_marginBottom="21dp"
+            android:text="(12) 14 April 14.46"
+            android:textSize="20sp"
+            android:textStyle="normal"
+            app:layout_constraintBottom_toBottomOf="@+id/profil3"
+            app:layout_constraintStart_toEndOf="@+id/profil3"
+            app:layout_constraintTop_toBottomOf="@+id/txt5"
+            app:layout_constraintVertical_bias="0.516" />
+
+        <android.support.constraint.Barrier
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:barrierDirection="bottom"
+            app:constraint_referenced_ids="profil1,txt1,txt2"
+            tools:layout_editor_absoluteX="140dp"
+            tools:layout_editor_absoluteY="451dp" />
+
+        <android.support.constraint.Barrier
+            android:id="@+id/bar2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:barrierDirection="bottom"
+            app:constraint_referenced_ids="profil2,txt3,txt4"
+            tools:layout_editor_absoluteX="124dp"
+            tools:layout_editor_absoluteY="428dp" />
+
+        <android.support.constraint.Barrier
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:barrierDirection="bottom"
+            app:constraint_referenced_ids="profil3,txt5,txt6"
+            tools:layout_editor_absoluteX="77dp"
+            tools:layout_editor_absoluteY="450dp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="22dp"
+            android:layout_marginLeft="22dp"
+            android:layout_marginTop="10dp"
+            android:src="@android:drawable/sym_call_incoming"
+            app:layout_constraintStart_toEndOf="@+id/profil1"
+            app:layout_constraintTop_toBottomOf="@+id/txt1" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:src="@android:drawable/sym_call_incoming"
+            app:layout_constraintBottom_toBottomOf="@+id/profil3"
+            app:layout_constraintStart_toEndOf="@+id/profil3"
+            app:layout_constraintTop_toTopOf="@+id/profil3"
+            app:layout_constraintVertical_bias="0.604" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="16dp"
+            android:src="@android:drawable/sym_call_outgoing"
+            app:layout_constraintStart_toEndOf="@+id/profil2"
+            app:layout_constraintTop_toBottomOf="@+id/txt3" />
+
+        <ImageView
+            android:layout_width="43dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="216dp"
+            android:layout_marginLeft="216dp"
+            android:layout_marginBottom="12dp"
+            android:src="@drawable/ic_baseline_phone_24"
+            app:layout_constraintBottom_toBottomOf="@+id/txt2"
+            app:layout_constraintStart_toEndOf="@+id/profil1" />
+
+        <ImageView
+            android:layout_width="43dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="212dp"
+            android:layout_marginLeft="212dp"
+            android:src="@drawable/ic_baseline_phone_24"
+            app:layout_constraintBottom_toBottomOf="@+id/profil3"
+            app:layout_constraintStart_toEndOf="@+id/profil3"
+            app:layout_constraintTop_toTopOf="@+id/profil3"
+            app:layout_constraintVertical_bias="0.323" />
+
+        <ImageView
+            android:layout_width="42dp"
+            android:layout_height="46dp"
+            android:layout_marginStart="212dp"
+            android:layout_marginLeft="212dp"
+            android:src="@drawable/ic_baseline_phone_24"
+            app:layout_constraintBottom_toBottomOf="@+id/profil2"
+            app:layout_constraintStart_toEndOf="@+id/profil2"
+            app:layout_constraintTop_toTopOf="@+id/profil2"
+            app:layout_constraintVertical_bias="0.406" />
+
+
+    </android.support.constraint.ConstraintLayout>
+
+
+</RelativeLayout>

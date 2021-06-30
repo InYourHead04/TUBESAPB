@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".tabchat">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/bar1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:background="@color/Teal_Green"
+            android:minHeight="?attr/actionBarSize"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+            tools:ignore="MissingConstraints">
+
+            <ImageView
+                android:id="@+id/profil1"
+                android:layout_width="65dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="16dp"
+                android:src="@drawable/avatar2"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tasya"
+                android:textSize="30dp">
+            </TextView>
+
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="37dp"
+                android:layout_height="30dp"
+                app:layout_constraintBottom_toBottomOf="@+id/toolbar"
+                app:layout_constraintTop_toTopOf="@+id/toolbar"
+                app:srcCompat="@android:drawable/stat_sys_phone_call"
+                tools:layout_editor_absoluteX="286dp"
+                android:layout_marginStart="150dp"
+                android:layout_marginLeft="16dp"/>
+
+            <ImageView
+                android:id="@+id/imageView10"
+                android:layout_width="37dp"
+                android:layout_height="35dp"
+                app:layout_constraintBottom_toBottomOf="@+id/toolbar"
+                app:layout_constraintTop_toTopOf="@+id/toolbar"
+                app:srcCompat="@android:drawable/presence_video_away"
+                tools:layout_editor_absoluteX="349dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="16dp"/>
+
+        </android.support.v7.widget.Toolbar>
+
+
+        <EditText
+            android:id="@+id/et_password"
+            android:layout_width="390dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="76dp"
+            android:layout_marginBottom="13dp"
+            android:background="@drawable/edit_text_design"
+            android:ems="10"
+            android:hint="Type to Text"
+            android:padding="13dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/guideline5" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="35dp"
+            android:layout_height="36dp"
+            android:layout_marginTop="7dp"
+            android:layout_marginEnd="4dp"
+            android:layout_marginRight="4dp"
+            android:outlineAmbientShadowColor="#009688"
+            android:outlineSpotShadowColor="#009688"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/et_password"
+            app:layout_constraintTop_toTopOf="@+id/et_password"
+            app:layout_constraintVertical_bias="0.0"
+            app:srcCompat="@android:drawable/ic_menu_send" />
+
+
+    </android.support.constraint.ConstraintLayout>
+
+
+</RelativeLayout>
